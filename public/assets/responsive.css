@@ -1,0 +1,102 @@
+@media (max-width: 1200px) {
+    section{
+        width: 100%;
+    }
+    .seed-safe{
+        width: 100%;
+    }
+    #imgseed{
+        height:300px;
+    }
+    .article{
+        margin-bottom: 30px;
+    }
+    #buy{
+        width: 90%;
+        margin: auto;
+    }
+    #form{
+        width: 90%;
+    }
+
+    #social{
+        margin: 20px;
+    }
+
+}
+
+@media (max-width: 780px) {
+    
+    .section1{
+        display: block;
+        width: 95%;
+    }
+    section{
+        width: 100%;
+    }
+    .seed-safe{
+        width: 100%;
+    }
+    #imgseed{
+        height: 200px;;
+    }
+    .article{
+        margin-bottom: 30px;
+    }
+    #buy{
+        width: 90%;
+        margin: auto;
+    }
+    #form{
+        width: 90%;
+    }
+    .social{
+        width:40px;
+        height: 40px;
+    }
+    #social{
+        margin: 15px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+   
+    section{
+        width: 100%;
+    }
+    .section1{
+        display: block;
+        width: 95%;
+    }
+    .seed-safe{
+        width: 100%;
+    }
+    #imgseed{
+        height:150px;
+    }
+    .article{
+        margin-bottom: 30px;
+    }
+    #buy{
+        width: 90%;
+        margin: auto;
+    }
+    #form{
+        width: 90%;
+    }
+    .social{
+        width:40px;
+        height: 40px;
+    }
+    #social{
+        margin: 15px;
+    }
+
+}
+
+
+
+
+
