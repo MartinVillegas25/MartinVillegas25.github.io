@@ -19,17 +19,18 @@
     
     <nav class="secciones">
         <div  id="navbar"> <a class="item2" href="#section1">Seed Safe</a> </div>
-        <div  id="navbar"> <a class="item2"  href="#section1">About Us</a> </div>
-        <div  id="navbar"> <a class="item2" href="#section2">News</a> </div>
+        <div  id="navbar"> <a class="item2"  href="#section2">About Us</a> </div>
+        <div  id="navbar"> <a class="item2" href="#news">News</a> </div>
         <div  id="navbar"> <a class="item2" href="#section3">Contact</a> </div>
     </nav>
     <header>
-        <div class="m-auto w-100">
+        <span id="title-header"  class="m-auto text-light">SEED SAFE</span>
+        <div id="items" class="m-auto w-100">
             <ul>
-                <li class= " h4  px-3"><a class="item" href="#">Seed Safe</a> </li>
-                <li class= " h4  px-3"><a class="item" href="#">About Us</a> </li>
-                <li class= " h4 px-3"><a class="item" href="#">News</a> </li>
-                <li class= " h4 px-3"><a class="item" href="#">Contact</a> </li>
+                <li class= " h4  px-3"><a class="item text-light" href="#section1">Seed Safe</a> </li>
+                <li class= " h4  px-3"><a class="item text-light" href="#section2">About Us</a> </li>
+                <li class= " h4 px-3"><a class="item text-light" href="#news">News</a> </li>
+                <li class= " h4 px-3"><a class="item text-light" href="#section3">Contact</a> </li>
             </ul>
 
         </div>
@@ -40,116 +41,171 @@
             </span>
         </button>
     </header>
-    <div class="container">
+
+    <div >
     
-
-    <section id="section1">
-        <br>
-        <h1> What is Seed safe?</h1>
-        <hr>
-        <div class="section1">
-            <div class="seed-safe">
-                <img id="imgseed" class="img-responsive"  src="./assets/photos/seed safe.jpg" alt="seed safe">
+ <!--seed safe -->
+    <div class="container">
+        <section id="section1">
+            <br>
+            <h1> What is Seed safe?</h1>
+            <hr>
+            <div class="section1">
+                <div class="seed-safe">
+                    <img id="imgseed" class="img-responsive"  src="./assets/photos/seed safe.jpg" alt="seed safe">
+                </div>
+    
+                <div class="seed-safe ">
+                    <p>ColdTi stores recovery seeds in ultra-safe Titanium to prevent the loss of crypto funds; works with all hardware wallets including TREZOR, Ledger Nano S and KeepKey
+                    Crafted from industrial-strength titanium to withstand the effects of time; rust-proof, water-proof, and fireproof
+                    Compatible with any 12 or 24-word or sequence seed; perfect for storing your cryptocurrency recovery seed
+                    Unbranded, nondescript and unassuming, ColdTi draws no extra attention to your seed words and even comes with uniquely labeled, holographic anti-tamper seals to notify you if someone opens the ColdTi prematurely
+                    Includes holographic stickers, two titanium storage plates that holds 24 words or sequences EACH, and a numerical punch set.</p>
+    
+                    <button id="buy" class="btn btn-primary rounded-pill px-md-5 px-4 py-2 radius-0 text-light light-300">BUY</button>
+                </div>
             </div>
+            <br>    
+            <img id="imgseed" src="./assets/photos/caracteristicas seed safe.jpg" alt="specification">
+        </section>
 
-            <div class="seed-safe">
-                <p>ColdTi stores recovery seeds in ultra-safe Titanium to prevent the loss of crypto funds; works with all hardware wallets including TREZOR, Ledger Nano S and KeepKey
-                Crafted from industrial-strength titanium to withstand the effects of time; rust-proof, water-proof, and fireproof
-                Compatible with any 12 or 24-word or sequence seed; perfect for storing your cryptocurrency recovery seed
-                Unbranded, nondescript and unassuming, ColdTi draws no extra attention to your seed words and even comes with uniquely labeled, holographic anti-tamper seals to notify you if someone opens the ColdTi prematurely
-                Includes holographic stickers, two titanium storage plates that holds 24 words or sequences EACH, and a numerical punch set.</p>
+    </div>
 
-                <button id="buy" class="btn btn-primary rounded-pill px-md-5 px-4 py-2 radius-0 text-light light-300">BUY</button>
+
+    <!--about us-->
+    <div class="background col-12 w-100 px-3 py-3">
+
+        <section id="section2">
+            <br>
+            <h1 class="text-light"> About Us </h1>
+            <hr>
+            <div>
+                
+    
+                <div class="text-light px-2 py-2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, neque! Quos facere doloremque dolores vel culpa tenetur distinctio exercitationem sapiente qui, porro repellendus harum incidunt mollitia commodi cum deleniti modi.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, neque! Quos facere doloremque dolores vel culpa tenetur distinctio exercitationem sapiente qui, porro repellendus harum incidunt mollitia commodi cum deleniti modi.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, neque! Quos facere doloremque dolores vel culpa tenetur distinctio exercitationem sapiente qui, porro repellendus harum incidunt mollitia commodi cum deleniti modi.</p>
+    
+    
+                    
+                </div>
             </div>
+            
+        </section>
+    </div>
+    
+    
+    <!-- articles -->
+
+    <section id="news" class="py-2 mb-5">
+        <div class="container">
+            <div class="articles-header row text-center pb-5">
+                <h2 class="col-md-7 m-auto h2 semi-bold-600 py-3">News and Articles</h2>
+                <hr>
+            </div>
+            <div class="row gy-5 g-lg-5 mb-4">
+                <div class="col-md-4 mb-3">
+                     <a href="#" class="articles card border-0 shadow-lg overflow-hidden">
+                     <img loading="lazy" class="recent-work-img card-img" src="./assets/photos/btc.jpg" alt="Card image">
+                    <div class="articles-vertical card-img-overlay d-flex align-items-end">
+                    <div class="articles-content text-start mb-3 ml-3 text-dark">
+                        <h3 class="card-title light-300">Satoshi Takamoto</h3>
+                        
+                    </div>
+                </div>
+            </a>
         </div>
-        <br>    
-        <img id="imgseed" src="./assets/photos/caracteristicas seed safe.jpg" alt="specification">
-    </section>
-<div >
-    <section id="section2">
-    <br>
-    <h2>News and Interests</h2>
-    <hr>
-    <p class="text m-3">
-        In this secction you can learn more about cryptos and different topics. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis nihil voluptatibus, corrupti dolorem aliquam temporibus, tenetur aliquid quos earum alias ducimus! Veniam ducimus aliquam ipsa optio dolorem itaque totam tempora!
-    </p>
-    <p class="text m-3"
-    >Read the last news or discover famous people</p>
-    <div class="articles">
-        <div class="article">
-            <img id="imgarticle" src="./assets/photos/btc.jpg" alt="articles">
-            <p class="mt-3 text-center">Satoshi Nakamoto</p>
-            <a class="btn btn-primary rounded-pill px-md-5 px-4 py-2 radius-0 text-light light-300" href="./articles/satoshi nakamoto/index.html" target="_blank">View more</a> 
+        <div class="col-md-4 mb-3">
+            <a href="#" class="articles card border-0 shadow-lg overflow-hidden">
+                <img loading="lazy" class="recent-work-img card-img" src="./assets/photos/eth.jpg" alt="Card image">
+                <div class="articles-vertical card-img-overlay d-flex align-items-end">
+                    <div class="articles-content text-start mb-3 ml-3 text-dark">
+                        <h3 class="card-title light-300">Vitalik Buterin</h3>
+                        
+                    </div>
+                </div>
+            </a>
         </div>
-        <div class="article">
-            <img id="imgarticle" src="./assets/photos/eth.jpg" alt="articles">
-            <p class="mt-3 text-center">vitalik buterin</p>
-            <a class="btn btn-primary rounded-pill px-md-5 px-4 py-2 radius-0 text-light light-300" href="./articles/Vitalik Buterin/index.html" target="_blank">View more</a> 
+
+        
+        <div class="col-md-4 mb-3">
+            <a href="#" class="articles card border-0 shadow-lg overflow-hidden">
+                <img  loading="lazy" class="recent-work-img card-img" src="./assets/photos/articles.jpeg" alt="Card image">
+                <div class="articles-vertical card-img-overlay d-flex align-items-end">
+                    <div class="articles-content text-start mb-3 ml-3 text-dark">
+                        <h3 class="card-title light-300">BTC vs ETH</h3>
+                        
+                    </div>
+                </div>
+            </a>
         </div>
-        <div class="article">
-            <img id="imgarticle" src="./assets/photos/articles.jpeg" alt="articles">
-            <p class="mt-3 text-center">Bitcoin vs Ethereum</p>
-            <a class="btn btn-primary rounded-pill px-md-5 px-4 py-2 radius-0 text-light light-300" href="./articles/btc vs eth/index.html" target="_blank">View more</a>
-        </div>
+   
+      
+  
+
+    </div>
     </div>
     </section>
-</div>
-    <section id="section3">
-        <br>
-        <h2>Contact</h2>
-        <hr>
-        <br>
-        <form id="form" class="contact-form row" method="POST"  role="form" >
+    <div class="container">
 
-            <div class="col-12 mt-3">
-                <div class="form-floating">
-                    <input  type="text" class="form-control form-control-lg light-300" id="floatingname" name="name" placeholder="Name" required>
-                    <label for="floatingname light-300">Name</label>
-                </div>
-            </div>
-           
-
-            <div class="col-12  mt-3">
-                <div class="form-floating">
-                    <input type="email" class="form-control form-control-lg light-300" id="floatingemail" name="email" placeholder="Email" required>
-                    <label for=" email floatingemail light-300">Email</label>
-                </div>
-            </div><!-- End Input Email -->
-            
-            <div class="col-12 mt-3">
-                <div class="form-floating">
-                    <input type="text" class="form-control form-control-lg light-300" id="floatingphone" name="phone" placeholder="Phone">
-                    <label for="floatingphone light-300">Phone</label>
-                </div>
-            </div><!-- End Input Phone -->          
-           
-
-            <div class="col-12 mt-3">
-                <div class="form-floating mb-3">
-                    <textarea type="textarea" name="message" class="form-control light-300" rows="8" placeholder="Message" id="floatingtextarea" required></textarea>
-                    <label for="floatingtextarea light-300">Message</label>
-                </div>
-            </div><!-- End Textarea Message -->
-            
-           
-            <div class="col-md-12 col-12 m-auto text-center">
-                <button id="botonformulario" type="submit" class="btn btn-primary rounded-pill px-md-5 px-4 py-2 radius-0 text-light light-300">Send Message</button>
-            </div>
-
-        </form>
-    </section>
+        <section id="section3">
+           <br>
+           <h2 class="col-md-7 m-auto h2 semi-bold-600 py-3">Contact</h2>
+           <hr>
+           <br>
+           <form id="form" class="contact-form row" method="POST"  role="form" action="https://formspree.io/f/meqnqzky"  >
+   
+               <div class="col-12 mt-3">
+                   <div class="form-floating">
+                       <input  type="text" class="form-control form-control-lg light-300" id="floatingname" name="name" placeholder="Name" required>
+                       <label for="floatingname light-300">Name</label>
+                   </div>
+               </div>
+              
+   
+               <div class="col-12  mt-3">
+                   <div class="form-floating">
+                       <input type="email" class="form-control form-control-lg light-300" id="floatingemail" name="email" placeholder="Email" required>
+                       <label for=" email floatingemail light-300">Email</label>
+                   </div>
+               </div><!-- End Input Email -->
+               
+               <div class="col-12 mt-3">
+                   <div class="form-floating">
+                       <input type="text" class="form-control form-control-lg light-300" id="floatingphone" name="phone" placeholder="Phone">
+                       <label for="floatingphone light-300">Phone</label>
+                   </div>
+               </div><!-- End Input Phone -->          
+              
+   
+               <div class="col-12 mt-3">
+                   <div class="form-floating mb-3">
+                       <textarea type="textarea" name="message" class="form-control light-300" rows="8" placeholder="Message" id="floatingtextarea" required></textarea>
+                       <label for="floatingtextarea light-300">Message</label>
+                   </div>
+               </div><!-- End Textarea Message -->
+               
+              
+               <div class="col-md-12 col-12 m-auto text-center">
+                   <button id="botonformulario" type="submit" class="btn btn-primary rounded-pill px-md-5 px-4 py-2 radius-0 text-light light-300">Send Message</button>
+               </div>
+   
+           </form>
+       </section>
+    </div>
 </div>
     <footer>
-        <h4 class="ms-5">Social Media</h4>
+        <h4 class="ms-5 text-light">Social Media</h4>
         <br>
-        <a id="social" href="#"><img class="social" src="https://img.icons8.com/ios/50/000000/instagram-new.png"/></a>
-        <a id="social" href="#"><img class="social"src="https://img.icons8.com/ios/50/000000/twitter--v1.png"/></a>
-        <a id="social" href="#"><img class="social"src="https://img.icons8.com/ios/50/000000/facebook--v1.png"/></a>
-        <a id="social" href="#"><img class="social" src="https://img.icons8.com/ios/50/000000/linkedin.png"/></a>
+        <a class="socialmedia" href="#"><img class="social" src="https://img.icons8.com/color/48/000000/instagram-new--v2.png" alt="instagram"/></a>
+        <a class="socialmedia" href="#"><img class="social"src="https://img.icons8.com/color/48/000000/twitter--v2.png" alt="twitter"/></a>
+        <a class="socialmedia" href="#"><img class="social"src="https://img.icons8.com/color/48/000000/facebook.png" alt="facebook"/></a>
+        <a class="socialmedia" href="#"><img class="social"src="https://img.icons8.com/color/48/000000/linkedin.png" alt="linkedin"/></a>
         <br>
         <br>
 
-        <h6 class="text-center ">Create by <a class="h6 d-inline" href="#">Martin Villegas </a> </h6>
+        <h6 class="text-center  text-light">Create by <a class="h6 d-inline" href="#">Martin Villegas </a> </h6>
     </footer>
 
 

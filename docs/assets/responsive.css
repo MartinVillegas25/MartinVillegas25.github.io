@@ -1,6 +1,10 @@
-@media (max-width: 1200px) {
+@media (min-width: 780px) {
     section{
         width: 100%;
+    }
+ 
+    .title{
+        display:none;
     }
     .seed-safe{
         width: 100%;
@@ -22,11 +26,20 @@
     #social{
         margin: 20px;
     }
+    #title-header{
+        display: none;
+    }
+    
 
 }
 
 @media (max-width: 780px) {
-    
+    #title-header{
+        display: block;
+    }
+    #items{
+        display: none;
+    }
     .section1{
         display: block;
         width: 95%;
@@ -62,7 +75,9 @@
 
 
 @media (max-width: 576px) {
-   
+    #items{
+        display: none;
+    }
     section{
         width: 100%;
     }

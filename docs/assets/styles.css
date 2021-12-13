@@ -3,6 +3,10 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+:root{
+    --background-color: #0B071F;
+
+}
 html{
     scroll-behavior: smooth;
 }
@@ -10,12 +14,13 @@ html{
 header{
     width: 100%;
     height: 50px;
-    background-color:whitesmoke;
+    background-color: var(--background-color);
     margin: auto;  
     display: flex;
     
     
 }
+
 ul{
     display: flex;
     justify-content:space-between;
@@ -120,10 +125,16 @@ section{
 }
 
 
-
 .seed-safe{
     width: 50%;
     height: 100%;
+    margin:auto
+}
+
+.background{
+    background-color: var(--background-color);
+    width: 100vw;
+    height: 60vh;
     margin:auto
 }
 
@@ -149,45 +160,45 @@ h2{
     font-weight: bold;
 }
 
-.articles{
-    display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1 1 auto;
-    width: 90%;
-}
-
-.article{  
-    margin:auto;
-    padding: 5px;
-    box-shadow: 3px 3px gray;
-}
-
-.article:hover{
-    transform: scale(1.1);
-    transition-duration: 500ms;
-    transition-property: transform;
-}
-
-
-#imgarticle{
-    width: 200px;
-    height: 200px;
-}
-
 #form{
     width: 50%;
     height: 100%;    
     margin: auto;
 }
 
-#social{
+.socialmedia{
     display: inline;
     margin: 20px;
 }
 
 footer{
-    background-color: whitesmoke;
+    background-color: var(--background-color);
     margin: auto;
 }
 
+/* articles*/
+.articles.card{
+    border-radius: 10px !important;
+  }
+  .articles .articles-vertical {
+      background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(240, 237, 237, 0) 33.333%, rgb(78, 75, 100) 66.666%, rgba(255, 254, 254, 0) 99.999%);
+    background-size: 300% 300%;
+    background-position: 0% 100%;
+    transition: .5s;
+    cursor: pointer;
+  }
+  .articles .articles-vertical:hover {
+    background-position: 0% 0%;
+    transition: .5s;
+  }
+  .articles .articles-vertical:hover div.articles-content {
+    top: 50%;
+    margin-top: -2.5em;
+    position: absolute;
+  }
+  .articles .articles-vertical:hover * {
+    color: white;
+    transition: .5s;
+  }
 

@@ -1,1 +1,0 @@
-**Articulo sobre  Satoshi Nakamoto
